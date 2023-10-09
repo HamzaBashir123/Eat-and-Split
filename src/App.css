@@ -38,8 +38,17 @@ html {
 .contHeader .heading {
   color: #444;
   font-size: 4.6rem;
-  text-transform: uppercase;
   text-decoration: 4px solid #f0a61d underline;
-  font-family: "K2D", sans-serif;
+  font-family:   Georgia, 'Times New Roman', Times, serif;
   font-weight: 800;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .heading {
+  font-size: 2rem !important;
+  text-decoration: 3px solid #f0a61d underline;
+  font-family:   Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600 !important;
+}
 }

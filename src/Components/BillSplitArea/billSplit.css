@@ -87,8 +87,87 @@
   padding: 6px 4px;
   text-align: center;
   transition: 0.1s linear;
+  
 }
 
 .billSplitBtn:active {
   transform: scale(0.95);
+}
+
+@media only screen and (max-width:500px){
+  .BillSplitArea {
+    padding: 10px;
+    gap: 10px;
+    
+  }
+  .billSplitHeader {
+    text-align: center;
+  
+  }
+  
+  .billSplitHeader h2 {
+    
+
+    font-size: 1.2rem;
+    font-weight: bolder;
+    
+  }
+  
+  .billInfo {
+
+    gap: 10px;
+  }
+  
+  .billInfo span {
+     display: block;
+    padding: 5px;
+    
+  }
+  
+  .billInfo span label {
+    
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    
+    
+  }
+ 
+  .billInfo span input {
+    
+    
+    width: 80%;
+    font-size: 1.2rem;
+  }
+  
+  .billInfo span input::-webkit-inner-spin-button,
+  .billInfo span input::-webkit-outer-spin-button {
+    display: none;
+  }
+  
+  .billInfo span select {
+    
+    width: 100%;
+    font-size: 1.2rem;
+   
+
+  }
+  
+  .billInfo span select option {
+    background-color: #47433e;
+    color: #fff;
+    
+  }
+  
+  .billSplitBtn {
+    width: 80% !important;
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+  }
+  
+  .billSplitBtn:active {
+    transform: scale(0.95);
+  }
 }

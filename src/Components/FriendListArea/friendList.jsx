@@ -49,13 +49,13 @@ const EachFriendArea = ({
                   : { color: "#444" }
               }>
               {eachFrnd.credit < 0
-                ? `${eachFrnd.name} owes you ${eachFrnd.credit
+                ? `${eachFrnd.name} owes your ${eachFrnd.credit
                     .toString()
                     .split("")
                     .slice(1)
                     .join("")}Rs `
                 : eachFrnd.credit > 0
-                ? `You owe ${eachFrnd.name} ${eachFrnd.credit}Rs`
+                ? `You owes ${eachFrnd.name} ${eachFrnd.credit}Rs`
                 : `You and ${eachFrnd.name} are even`}
             </p>
           </div>

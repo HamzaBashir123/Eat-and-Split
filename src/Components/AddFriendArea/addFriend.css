@@ -57,3 +57,42 @@
 .addFriendBtn:active {
   transform: scale(0.95);
 }
+@media only screen and (max-width: 500px) {
+  .AddFriendArea {
+    padding: 5px;
+  }
+
+  .friendInfo {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .friendInfo span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .friendInfo span label {
+    font-size: 1.2rem;
+  }
+
+  .friendInfo span input {
+    width: 60%;
+    font-size: 1.2rem;
+  
+  }
+
+  .addFriendBtn {
+
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 3px;
+  
+  }
+
+  .addFriendBtn:active {
+    transform: scale(0.95);
+  }
+}

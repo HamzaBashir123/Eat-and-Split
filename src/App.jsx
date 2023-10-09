@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="contHeader">
-          <h1 className="heading">eat n split with friends</h1>
+          <h1 className="heading">Eat & Split with Friends</h1>
         </header>
         <MainArea />
       </div>
